@@ -1,0 +1,36 @@
+version: "3"
+
+services:
+  mlflow:
+    build:
+      context: .
+    image: ghcr.io/mlflow/mlflow
+    container_name: mlflow_pystories
+    user: root
+    volumes:
+      - ./:/home/jovyan/work
+    working_dir: /home/jovyan/work
+    ports:
+      - "5000:5000"
+    command:
+      - "mlflow"
+      - "ui"
+      - "--host"
+      - "0.0.0.0"
+  jupyter:
+    user: root      
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jupyter_pystories
+    ports:
+      - "8887:8888"
+    volumes:
+      - ./:/home/jovyan/work 
+    environment:
+      JUPYTER_ENABLE_LAB: 1 
+      NB_UID: ${USER}
+      NB_GID: ${GROUP}
+      CHOWN_HOME: 'yes'
+      CHOWN_HOME_OPTS: '-R'
+
