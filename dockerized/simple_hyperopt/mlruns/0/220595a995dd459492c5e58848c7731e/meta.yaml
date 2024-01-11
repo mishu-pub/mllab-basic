@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/simple_hyperopt/mlruns/0/220595a995dd459492c5e58848c7731e/artifacts
+end_time: 1704999754837
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 220595a995dd459492c5e58848c7731e
+run_name: capable-sloth-873
+run_uuid: 220595a995dd459492c5e58848c7731e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704999739975
+status: 3
+tags: []
+user_id: jovyan

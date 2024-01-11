@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/simple_hyperopt/mlruns/0/5bb89bcdde0643ab965d4afbe2db6483/artifacts
+end_time: 1704999725053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5bb89bcdde0643ab965d4afbe2db6483
+run_name: big-squirrel-735
+run_uuid: 5bb89bcdde0643ab965d4afbe2db6483
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704999716720
+status: 3
+tags: []
+user_id: jovyan

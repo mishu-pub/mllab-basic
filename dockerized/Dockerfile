@@ -8,6 +8,8 @@ RUN pip install ua_parser
 RUN pip install xgboost
 RUN pip install hyperopt
 RUN pip install mlflow
+RUN pip install scikit-learn
+RUN pip install pyspark
 
 RUN jupyter lab build
 RUN jupyter lab clean

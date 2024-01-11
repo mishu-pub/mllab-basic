@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/simple_hyperopt/mlruns/0/bbdf0a023d8d4b0094f24c6ed82dbbd3/artifacts
+end_time: 1704999739868
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bbdf0a023d8d4b0094f24c6ed82dbbd3
+run_name: thundering-fawn-428
+run_uuid: bbdf0a023d8d4b0094f24c6ed82dbbd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704999700408
+status: 3
+tags: []
+user_id: jovyan

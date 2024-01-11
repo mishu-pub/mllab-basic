@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/simple_hyperopt/mlruns/0/36600890a8664d958a1a0c16a3cd7616/artifacts
+end_time: 1704999739839
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36600890a8664d958a1a0c16a3cd7616
+run_name: bemused-sheep-180
+run_uuid: 36600890a8664d958a1a0c16a3cd7616
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704999725529
+status: 3
+tags: []
+user_id: jovyan

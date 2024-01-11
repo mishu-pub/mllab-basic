@@ -1,6 +1,13 @@
 
 # Operational
 
+
+for the dockerized stuff you first have to go inside the necessary folder
+
+```
+cd dockerized
+```
+
 We use jupytext, so that no .ipynb is submitted, but the notebooks are generated out of the .py files
 
 ## Docker compose
@@ -17,6 +24,12 @@ To start mlflow
 
 ```
 MLRUNS_BASE_PATH=<PATH_TO_MLRUNS> USER="$(id -u)" GROUP="$(id -g)" docker-compose up mlflow
+```
+
+like this
+
+```
+MLRUNS_BASE_PATH=simple_hyperopt USER="$(id -u)" GROUP="$(id -g)" docker-compose up mlflow
 ```
 
 You will then be able to see the mlflow ui [HERE](http://localhost:5000/)
