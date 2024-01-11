@@ -5,7 +5,7 @@ services:
     build:
       context: .
     image: ghcr.io/mlflow/mlflow
-    container_name: mlflow_pystories
+    container_name: mlflow
     user: root
     volumes:
       - ./${MLRUNS_BASE_PATH}:/home/jovyan/work
@@ -22,7 +22,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: jupyter_pystories
+    container_name: jupyter
     ports:
       - "8887:8888"
     volumes:
