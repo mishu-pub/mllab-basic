@@ -16,7 +16,7 @@ USER="$(id -u)" GROUP="$(id -g)" docker-compose build
 To start mlflow 
 
 ```
-USER="$(id -u)" GROUP="$(id -g)" docker-compose up mlflow
+MLRUNS_BASE_PATH=<PATH_TO_MLRUNS> USER="$(id -u)" GROUP="$(id -g)" docker-compose up mlflow
 ```
 
 You will then be able to see the mlflow ui [HERE](http://localhost:5000/)
