@@ -5,6 +5,7 @@ simple_model
 .ipynb_checkpoints
 .idea/
 .DS_Store
+**/mlruns
 **/*_cache
 .Rhistory
 **/.Rproj.user/
@@ -12,6 +13,9 @@ simple_model
 **/.ipython
 **/.jupyter
 **/.local
+
+**/_data
+**/mlruns
 
 ################################################################################
 # Python stuff
